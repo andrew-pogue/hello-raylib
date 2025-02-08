@@ -1,11 +1,11 @@
 # Hello Raylib
 
-This is a template for projects using [raylib](https://www.raylib.com/)
+This is a template for C++ projects using [raylib](https://www.raylib.com/)
 
 ## Building
 
 ```bash
 cmake -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo
-make -C build
-./bin/game
+cmake --build build
+./bin/hello-raylib
 ```
